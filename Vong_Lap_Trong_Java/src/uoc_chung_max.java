@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Uoc_Chung_Max {
+public class uoc_chung_max {
     public static void main(String[] args) {
         int a;
         int b;
