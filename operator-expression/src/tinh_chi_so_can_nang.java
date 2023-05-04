@@ -13,7 +13,7 @@ public class tinh_chi_so_can_nang {
         System.out.println("Chi so la : " + bmi);
 
         if (bmi < 18)
-            System.out.println("Underwight");
+            System.out.println("Underwight!");
         else if (bmi < 25.0)
             System.out.println("Normal");
         else if (bmi < 30.0)
