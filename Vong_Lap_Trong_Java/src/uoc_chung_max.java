@@ -2,12 +2,13 @@ import java.util.Scanner;
 
 public class uoc_chung_max {
     public static void main(String[] args) {
-        int a;
-        int b;
+
         Scanner input = new Scanner(System.in);
         System.out.println("Nhap so a : ");
+        int a;
         a = input.nextInt();
         System.out.println("Nhap so b : ");
+        int b;
         b = input.nextInt();
 
         a = Math.abs(a);
