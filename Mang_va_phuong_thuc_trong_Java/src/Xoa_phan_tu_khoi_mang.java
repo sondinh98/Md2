@@ -18,7 +18,7 @@ public class Xoa_phan_tu_khoi_mang {
             System.out.println("Không tìm thấy phần tử cần xóa trong mảng");
             return;
         }
-        for (int i = index_del; i < array.length -1 ; i++) {
+        for (int i = index_del;i < array.length -1; i++) {
             array[i] = array[i+1];
         }
         array = Arrays.copyOf(array, array.length-1 );
